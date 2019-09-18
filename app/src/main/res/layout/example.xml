@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <!-- LinnerLayout定义的三个控件，将成为ListView控件的模板 -->
+        <TextView
+            android:id="@+id/tvName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:text="名称" />
+
+        <TextView
+            android:id="@+id/tvSS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_weight="4"
+            android:gravity="center"
+            android:text="状态" />
+    </LinearLayout>

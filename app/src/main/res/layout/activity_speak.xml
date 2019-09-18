@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/text_item_latlng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="#37B158"
+        android:text="四川农业大学图书馆位于四川省雅安市，是一所以收藏生物科学文献为特色，
+        农业科技文献为优势的国家“211工程”重点建设高校图书馆。"/>
+</android.support.constraint.ConstraintLayout>
